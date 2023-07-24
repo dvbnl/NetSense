@@ -11,7 +11,7 @@ NetSense is an open-source network tool made by DVB that provides a suite of fea
 
 To use NetSense, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Ddvbnl/NetSense.git`
+1. Clone the repository: `git clone https://github.com/dvbnl/NetSense.git`
 2. Navigate to the project directory: `cd NetSense` and verify the checksum
 3. Run the executable
 
@@ -35,7 +35,7 @@ The executable is built using the files in the 'src' directory.
 
 Contributions are welcome! If you would like to contribute to NetSense, please follow these steps:
 
-1. Fork the repository: [https://github.com/dvbnl/NetSense/fork](https://github.com/yourusername/NetSense/fork)
+1. Fork the repository: [https://github.com/dvbnl/NetSense/fork](https://github.com/dvbnl/NetSense/fork)
 2. Create a new branch for your changes: `git checkout -b feature/your-feature-name`
 3. Make your changes and commit them with descriptive messages: `git commit -m "Add your message here"`
 4. Push your changes to your forked repository: `git push origin feature/your-feature-name`
