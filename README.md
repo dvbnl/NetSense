@@ -47,4 +47,4 @@ Contributions are welcome! If you would like to contribute to NetSense, please f
 
 ## License
 
-NetSense is licensed under the [MIT License](https://github.com/dvbnl/NetSense/LICENSE). Feel free to use, modify, and distribute this tool as you see fit.
+NetSense is licensed under the [MIT License](https://github.com/dvbnl/NetSense/blob/main/LICENSE). Feel free to use, modify, and distribute this tool as you see fit.
