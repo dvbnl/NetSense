@@ -1,0 +1,30 @@
+﻿<Window x:Class="dvb_netmon.port_checker"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dvb_netmon"
+        mc:Ignorable="d"
+        Title="Port Checker" Height="350" Width="400">
+    <Window.Icon>
+        <ImageSource>https://shell.dimitrimedia.com:4443/media/ico/netsense-ico.ico</ImageSource>
+    </Window.Icon>
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,32,0,0" TextWrapping="Wrap" Text="PORT CHECKER" Foreground="#4F1C70" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
+        <TextBox x:Name="portcheckHost" HorizontalAlignment="Left" Margin="173,77,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="portcheckPort" HorizontalAlignment="Left" Margin="173,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,79,0,0" TextWrapping="Wrap" Text="Destination Host:" Foreground="#4F1C70" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Calibri"/>
+        <TextBlock HorizontalAlignment="Left" Margin="47,128,0,0" TextWrapping="Wrap" Text="Protocol (UDP/TCP):" Foreground="#4F1C70" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Calibri"/>
+        <TextBlock HorizontalAlignment="Left" Margin="122,102,0,0" TextWrapping="Wrap" Text="Port:" Foreground="#4F1C70" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Calibri"/>
+        <ListBox x:Name="formDestResultField" Margin="89,203,311,81"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,225,0,0" TextWrapping="Wrap" Text="RESULT" Foreground="#4F1C70" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Calibri"/>
+        <Button x:Name="portcheckRun" Content="Check" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,191,0,0"/>
+        <ComboBox x:Name="portcheckProtocol" HorizontalAlignment="Left" Margin="173,124,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="3">
+            <ComboBoxItem Content="TCP"/>
+            <ComboBoxItem Content="UDP"/>
+        </ComboBox>
+        <ListBox x:Name="portcheckResultLog" Margin="77,245,77,10"/>
+        <Rectangle Height="17" Stroke="Black" Fill="#4F1C70" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
