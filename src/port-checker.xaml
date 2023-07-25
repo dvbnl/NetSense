@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Port Checker" Height="350" Width="400">
     <Window.Icon>
-        <ImageSource>https://shell.dimitrimedia.com:4443/media/ico/netsense-ico.ico</ImageSource>
+        <ImageSource>https://dimitrimedia.nl/wp-content/uploads/2023/01/netsense-ico.ico</ImageSource>
     </Window.Icon>
     <Grid>
         <TextBlock HorizontalAlignment="Center" Margin="0,32,0,0" TextWrapping="Wrap" Text="PORT CHECKER" Foreground="#4F1C70" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>

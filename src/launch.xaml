@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="NetSense" Height="475" Width="800">
     <Window.Icon>
-        <ImageSource>https://shell.dimitrimedia.com:4443/media/ico/netsense-ico.ico</ImageSource>
+        <ImageSource>https://dimitrimedia.nl/wp-content/uploads/2023/01/netsense-ico.ico</ImageSource>
     </Window.Icon>
     <Grid>
         <Image x:Name="logo" HorizontalAlignment="Center" Height="107" Margin="0,22,0,0" VerticalAlignment="Top" Width="296"/>

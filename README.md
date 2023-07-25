@@ -25,11 +25,29 @@ To use NetSense, follow these steps:
 
 To ensure the integrity of the executable, you can verify it with the following checksums:
 
-- **MD5**: 2DDCEA5869610AFC318E56634AE3422C
-- **SHA1**: 9C21380BBE49E631273B858D6CE4FE858FCADAB4
-- **SHA256**: D6417C3D351DDC25877F35658F4DF169DC919CF71727FA1876044445D86CEC2E
+- **MD5**: 3163F7A44A8BA73B0558733E5F43180B
+- **SHA1**: 48BEDABC8A780763B983A406F6D038BE26937A3C
+- **SHA256**: 90442B2C34B2435F57EF99094A572B91D610A316207E431C5D76A07BAE249B9D
 
 The executable is built using the files in the 'src' directory.
+
+## Screenshots
+
+Main app:
+
+![](image/screenshot-netsense.jpg "NetSense")
+
+Portchecker:
+
+![](image/screenshot-portchecker.jpg "Portchecker")
+
+Hostmonitor:
+
+![](image/screenshot-hostmonitor.jpg "Hostmonitor")
+
+Wifimonitor:
+
+![](image/screenshot-wifimonitor.jpg "Wifimonitor")
 
 ## Contributing
 

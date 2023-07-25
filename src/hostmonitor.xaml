@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Host Monitoring" Height="550" Width="800">
     <Window.Icon>
-        <ImageSource>https://shell.dimitrimedia.com:4443/media/ico/netsense-ico.ico</ImageSource>
+        <ImageSource>https://dimitrimedia.nl/wp-content/uploads/2023/01/netsense-ico.ico</ImageSource>
     </Window.Icon>
     <Grid>
         <CheckBox x:Name="formLogBox" Content="Logfile" HorizontalAlignment="Left" Margin="99,395,0,0" VerticalAlignment="Top"/>

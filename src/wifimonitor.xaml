@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="WiFi Analyzer" Height="700" Width="850">
     <Window.Icon>
-        <ImageSource>https://shell.dimitrimedia.com:4443/media/ico/netsense-ico.ico</ImageSource>
+        <ImageSource>https://dimitrimedia.nl/wp-content/uploads/2023/01/netsense-ico.ico</ImageSource>
     </Window.Icon>
     <Grid>
         <Rectangle Height="17" Stroke="Black" Fill="#4F1C70" VerticalAlignment="Top"/>
