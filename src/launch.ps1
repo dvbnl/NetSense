@@ -29,7 +29,7 @@ Add-Type -AssemblyName System.Windows.Forms
 [xml]$XAML = Get-Content "launch.xaml"
 $XAML.Window.RemoveAttribute('x:Class')
 $XAML.Window.RemoveAttribute('mc:Ignorable')
-$XAMLReader = [System.Xml.XmlNodeReader]::new($XAML)
+$XAMLReader = [System.Xml.XmlNodeReader]$XAML
 $MainWindow = [Windows.Markup.XamlReader]::Load($XAMLReader)
 
 # UI ELEMENTS IMPORTEREN
