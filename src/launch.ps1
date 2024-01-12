@@ -14,6 +14,7 @@ Last Updated: .
 
 .VERSION HISTORY
 1.0 - Initial release
+1.1 - Added support for older Windows versions
 
 .CREDITS
 - netsh-wlanmon by mackenziewifi

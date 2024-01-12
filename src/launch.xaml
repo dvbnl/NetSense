@@ -13,7 +13,7 @@
         <Image x:Name="logo" HorizontalAlignment="Center" Height="107" Margin="0,22,0,0" VerticalAlignment="Top" Width="296"/>
         <Image x:Name="bottomlogo" HorizontalAlignment="Left" Height="25" Margin="10,400,0,0" VerticalAlignment="Top" Width="71"/>
         <Rectangle HorizontalAlignment="Stretch" Height="17" Stroke="Black" Fill="#4F1C70" VerticalAlignment="Top" Width="800"/>
-        <TextBlock HorizontalAlignment="Left" Margin="325,80,0,0" TextWrapping="Wrap" Text="v.1.0" VerticalAlignment="Top" FontFamily="Calibri Light"/>
+        <TextBlock HorizontalAlignment="Left" Margin="325,80,0,0" TextWrapping="Wrap" Text="v.1.1" VerticalAlignment="Top" FontFamily="Calibri Light"/>
         <Button x:Name="launchPortCheck" Content="PORT CHECKER" HorizontalAlignment="Left" Margin="68,162,0,0" VerticalAlignment="Top" Height="27" Width="92"/>
         <Button x:Name="launchMonitoring" Content="MONITORING" HorizontalAlignment="Left" Margin="68,204,0,0" VerticalAlignment="Top" Height="27" Width="92"/>
         <TextBlock HorizontalAlignment="Left" Margin="89,135,0,0" TextWrapping="Wrap" Text="TOOLS" Foreground="#4F1C70" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Calibri" FontSize="18"/>
